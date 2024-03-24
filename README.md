@@ -1,7 +1,7 @@
 # ReactJS Chatbot OpenAI
 
 This simple ReactJS project that I created is an AI Chatbot that uses apiKey from OpenAI.
-
+<img src="./Screenshot.png"/>
 ## Installation
 ```sh
 git clone https://github.com/fitri-hy/react-chatgpt-openai.git
