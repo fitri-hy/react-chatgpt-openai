@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.base-container {
+  margin-bottom: 70px;
+}
+.message-container {
+  height: 100%;
+  margin: 10px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+}
+.user {
+  margin-left: auto;
+  max-width: 90%;
+}
+
+.HytechAI {
+  margin-right: auto;
+  max-width: 90%;
+}
+.sender-user {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: rgb(75 85 99);
+}
+.sender-HytechAI {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  color: rgb(75 85 99);
+}
+.message-box-HytechAI {
+  color: white;
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgb(129 140 248); /*Indigo*/
+}
+.message-box-user{
+  color: #333;
+  text-align: left;
+  padding: 10px;
+  margin-left: auto;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgb(229 231 235); /*slate*/
+}
+.typing-message {
+  font-style: italic;
+  color: #666;
+  margin: 10px;
+}
+.message-form {
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   width: 100%;
+   color: white;
+   text-align: center;
+   z-index: 9;
+}
+.hytech-ai-main {
+   padding: 15px 15px 10px 15px;
+   display: flex;
+   gap: 15px;
+   height: 40px;
+}
+.message-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.text-input {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  resize: none;
+  outline: none;
+}
+.send-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.send-button:hover {
+  background-color: #0056b3;
+}
+pre {
+    background-color: rgb(15 23 42);
+	color: rgb(229 231 235);
+    padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+	-moz-tab-size: 4; /* Firefox */
+	tab-size: 4;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 600px) {
+    .message-box-HytechAI {
+	  font-size: 12px;
+	}
+	.message-box-user{
+	  font-size: 12px;
+	}
+	.hytech-ai-main {
+	   padding: 10px 10px 5px 10px;
+	   gap: 5px;
+	   height: 30px;
+	}
+	.text-input {
+	  padding: 5px;
+	}
+	.send-button {
+	  padding: 5px 20px;
+	  background-color: #007bff;
+	  color: #fff;
+	  border: none;
+	  border-radius: 5px;
+	  cursor: pointer;
+	}
+}
