@@ -35,7 +35,6 @@ function App() {
   return (
     <>
       <HyTechAi apiKey="your apiKey" />
-	/>
     </>
   );
 }
@@ -58,8 +57,7 @@ export default App;
 ## Example Full Customization
 
 ```sh
-<>
-  <HyTechAi 
+<HyTechAi 
     apiKey="your apiKey"
     aiModel="gpt-3.5-turbo"
     aiPrompt="Kamu adalah Hytech-AI yang dikembangkan oleh Hy-Tech Group"
@@ -68,7 +66,7 @@ export default App;
     senderName="You"
     typingLoad="Hytech-AI is typing..."
     buttonText="Ask"
-	/>
+/>
 ```
 ## Change Appearance
 You can change/customize the appearance in the `style.css` file
